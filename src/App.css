@@ -10,15 +10,10 @@
 .products,
 .sign-up {
   display: flex;
-  height: 15rem;
+  height: 90vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-}
-.normal-text{
-  font-size: 24px;
-  text-align: center;
-  justify-content: center;
 }
 
 .services {
@@ -26,7 +21,8 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: rgb(0, 0, 0);
+  
+  color: #fff;
   font-size: 100px;
 }
 
