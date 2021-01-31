@@ -12,24 +12,24 @@ function Cards() {
             <CardItem
               src='images/img-2.JPG!D'
               text='Top Soil'
-              path='/services'
+              path='/products'
             />
             <CardItem
               src='images/img-9.jpg'
               text='Mulch'
-              path='/services'
+              path='/products'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
               src='images/img-3.JPG!D'
               text='Stone selection'
-              path='/services'
+              path='/products'
             />
             <CardItem
               src='images/img-8.jpg'
               text='Sand'
-              path='/sign-up'
+              path='/products'
             />
             <CardItem
               src='images/img-4.JPG!D'
