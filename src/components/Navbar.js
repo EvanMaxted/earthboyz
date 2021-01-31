@@ -29,7 +29,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            Arnprior Earth Depot
+            TRVL
             <i class='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -62,15 +62,15 @@ function Navbar() {
 
             <li>
               <Link
-                to='/sign-up'
+                to='/contact-us'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Contact us
+                Contact Us
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline' buttonLink='/sign-up'>Contact us</Button>}
+          {button && <Button buttonStyle='btn--outline' buttonLink='/contact-us'>Contact Us</Button>}
         </div>
       </nav>
     </>
