@@ -32,6 +32,20 @@
   font-size: 100px;
 }
 
+/* image {
+  /* background-image: url('/images/servicesimage.jpg'); */
+  /* background-position: center;
+  position: fixed;
+} */ 
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
 .products {
   background-image: url('/images/img-1.jpg');
   background-position: center;

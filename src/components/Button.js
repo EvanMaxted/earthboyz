@@ -6,7 +6,7 @@ const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
 
 const SIZES = ['btn--medium', 'btn--large'];
 
-const BUTTLINKS = ['/', '/sign-up', '/products', '/about-us'];
+const BUTTLINKS = ['/', '/sign-up', '/products', '/about-us', '/contact-us'];
 
 export const Button = ({
   children,
