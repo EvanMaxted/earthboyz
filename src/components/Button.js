@@ -18,7 +18,7 @@ const STYLES = ['btn--primary', 'btn--outline'];
 
 const SIZES = ['btn--medium', 'btn--large'];
 
-const BUTTLINKS = ['/', '/sign-up'];
+const BUTTLINKS = ['/', '/sign-up','/products','/about-us'];
 
 export const Button = ({
   children,

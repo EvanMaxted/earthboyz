@@ -13,6 +13,7 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
+          buttonLink='/about-us'
         >
           About us
         </Button>
