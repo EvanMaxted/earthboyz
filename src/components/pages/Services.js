@@ -7,8 +7,9 @@ export default function Services() {
   return (
   <>
   <section className = "test">
+    {/* <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
   <h1 className='services'>SERVICES</h1>
-
+  
   </section>
       <Lateral
               src='images/mulchinsta.jpg'
