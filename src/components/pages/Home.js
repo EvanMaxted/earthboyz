@@ -7,8 +7,9 @@ import Footer from '../Footer';
 function Home() {
   return (
     <>
-      <HeroSection />
-      <Cards />
+      
+      <HeroSection/>
+      <Cards/>
       <Footer />
     </>
   );

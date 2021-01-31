@@ -70,8 +70,69 @@ h1 {
   object-fit: cover;
   transition: all 0.2s linear;
 }
-
+.lateral{
+  display: flex;
+  flex-flow: row;
+  height: 435px;
+  width: 100%;
+  margin: 40px 50px 40px 50px;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+}
+.lateralText{
+  font-size: 40px;
+  width: 560px;
+}
+.lateralImage{
+  height:auto;
+  width:90%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  
+  object-fit: cover;
+  transition: all 0.2s linear;
+  
+}
+.rightImage{
+  height:auto;
+  width:90%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 125px;
+  
+  object-fit: cover;
+  transition: all 0.2s linear;
+  
+}
+.right{
+  flex-flow:row-reverse;
+  display: flex;
+  height: 435px;
+  width: 100%;
+  margin: 40px 50px 40px 50px;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+}
 .cards__item__img:hover {
+  transform: scale(1.1);
+}
+.lateralImage:hover{
+  transform:scale(1.1);
+}
+.rightImage:hover{
   transform: scale(1.1);
 }
 
