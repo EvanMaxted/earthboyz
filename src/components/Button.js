@@ -23,7 +23,6 @@ export const Button = ({
   const checkButtonLink = BUTTLINKS.includes(buttonLink) ? buttonLink : BUTTLINKS[0];
 
 
-  const checkButtonLink = BUTTLINKS.includes(buttonLink) ? buttonLink : BUTTLINKS[0];
 
   return (
     <Link to={checkButtonLink} className='btn-mobile'>
