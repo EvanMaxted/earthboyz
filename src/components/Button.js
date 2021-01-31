@@ -22,8 +22,6 @@ export const Button = ({
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
   const checkButtonLink = BUTTLINKS.includes(buttonLink) ? buttonLink : BUTTLINKS[0];
 
-
-
   return (
     <Link to={checkButtonLink} className='btn-mobile'>
       <button

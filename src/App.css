@@ -10,23 +10,25 @@
 .products,
 .sign-up {
   display: flex;
-  height: 15rem;
+  height: 20rem;
   align-items: center;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 9rem;
 }
 .normal-text{
   font-size: 24px;
   text-align: center;
   justify-content: center;
+  
 }
 
-.services {
-  background-image: url('/images/img-2.jpg');
+.test {
+  background-image: url('/images/servicesimage.jpg');
   background-position: center;
+  height: 30rem;
   background-size: cover;
   background-repeat: no-repeat;
-  color: rgb(0, 0, 0);
+  color: rgb(250, 250, 250);
   font-size: 100px;
 }
 
@@ -47,12 +49,23 @@
   color: #fff;
   font-size: 100px;
 }
-
+.mulch {
+    background: #eaeaed;
+    border: 1px solid #9799a7;
+    float: left;
+    margin: 8px 0 0 20px;
+    padding: 4px;
+}
+.Information{
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+}
 .about-us {
-  background-color: cadetblue;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+background-color: cadetblue;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+color: #fff;
+font-size: 100px;
 }
